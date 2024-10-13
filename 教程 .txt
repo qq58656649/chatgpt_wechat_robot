@@ -15,7 +15,7 @@ sudo apt-get install golang
 
 
 # 获取项目
-$ git clone https://github.com/香蕉哥/chatgpt_wechat_robot.git
+$ git clone https://github.com/qq58656649/chatgpt_wechat_robot.git
 
 # 进入项目目录
 $ cd chatgpt_wechat_robot
