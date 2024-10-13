@@ -1,0 +1,28 @@
+第1步：获取自己 ChatGPT 的 apikey 【获取地址】 登入后即可获取
+
+第2步：安装VPS 【购买地址】首冲20美金，可以免费获得100美金的使用额度
+
+第3步：登入自己的VPS，SSH【客户端下载】
+
+【重要提醒】：如果你对Linux系统的命令不是很清除，那么请严格按照的我的教程来操作，系统一样选择 ubuntu 【视频教程】
+
+登入以后先执行环境安装命令：
+
+sudo apt-get install git
+ 
+
+sudo apt-get install golang
+
+
+# 获取项目
+$ git clone https://github.com/香蕉哥/chatgpt_wechat_robot.git
+
+# 进入项目目录
+$ cd chatgpt_wechat_robot
+
+# 复制配置文件
+$ cp config.dev.json config.json
+
+# 启动项目
+$ go run main.go
+
